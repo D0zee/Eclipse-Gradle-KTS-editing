@@ -29,5 +29,17 @@
             editorId="org.eclipse.ui.genericeditor.GenericEditor">
       </editorContentTypeBinding>
    </extension>
+   <extension
+         point="org.eclipse.lsp4e.languageServer">
+      <server
+            class="org.eclipse.buildship.kotlinDSL.provider.KotlinDSLConnectionProvider"
+            id="org.eclipse.buildship.kotlinDSL.provider.server"
+            label="kotlin DSL language server">
+      </server>
+      <contentTypeMapping
+            contentType="org.eclipse.buildship.kotlinDSL.content"
+            id="org.eclipse.buildship.kotlinDSL.provider.server">
+      </contentTypeMapping>
+   </extension>
 
 </plugin>
