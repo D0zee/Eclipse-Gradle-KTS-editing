@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Provider
-Bundle-SymbolicName: org.eclipse.buildship.kotlinDSL.provider;singleton:=true
+Bundle-SymbolicName: org.eclipse.buildship.kotlindsl.provider;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Require-Bundle: org.eclipse.core.contenttype,
  org.eclipse.ui,
@@ -12,3 +12,4 @@ Require-Bundle: org.eclipse.core.contenttype,
  org.eclipse.tm4e.registry,
  org.eclipse.jdt.launching,
  org.eclipse.swt
+Automatic-Module-Name: org.eclipse.buildship.kotlindsl.provider
